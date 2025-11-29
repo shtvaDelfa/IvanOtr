@@ -1,0 +1,44 @@
+body{
+     background-image: url(./Без\ названия.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+     background-size: cover;  
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-family: "Science Gothic", sans-serif;
+}
+.card {
+    background-color: aqua;
+    width: 400px;
+     text-align: center;
+    border-radius: 10px;
+}
+.card-header {
+    background-color: bisque;
+    padding: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.card-body {
+    padding: 20px;
+}
+.card-footer {
+    background-color: bisque;
+    padding: 20px;
+}
+.card-btn {
+    background-color: rgb(245, 180, 0);
+    padding:  10px 15px;
+    cursor: pointer;
+    border-radius:  10px;
+    border: none;
+    text-transform: uppercase;
+    transition: all 1s0;
+}
+.card-btn:hover{
+    background-color: #48111f;
+    box-shadow: 5x 5px;
+}
